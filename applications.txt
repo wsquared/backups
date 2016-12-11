@@ -14,12 +14,14 @@ Cylance
 DVD Player.app
 Dashboard.app
 Dictionary.app
+Docker.app
 Dropbox.app
 Evernote.app
 FaceTime.app
 Font Book.app
 Game Center.app
 Google Chrome.app
+HSTracker.app
 Hearthstone
 Image Capture.app
 KeePassX.app
@@ -42,6 +44,7 @@ QuickTime Player.app
 Reminders.app
 Safari.app
 Self Service.app
+Slack.app
 Spectacle.app
 Stickies.app
 System Preferences.app
