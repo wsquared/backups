@@ -36,6 +36,7 @@ Microsoft Outlook.app
 Microsoft PowerPoint.app
 Microsoft Word.app
 Mission Control.app
+MySQLWorkbench.app
 Notes.app
 Photo Booth.app
 Photos.app
