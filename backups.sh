@@ -39,6 +39,9 @@ find /Applications -path '*Contents/_MASReceipt/receipt' -maxdepth 4 -print |\se
 #Dump applications
 ls /Applications > applications.txt
 
+#Dump zshrc
+cp ~/.zshrc
+
 #Cleanup
 echo 'brew cleanup' >> $LOCATION
 echo 'brew cask cleanup' >> $LOCATION
