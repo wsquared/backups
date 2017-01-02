@@ -48,6 +48,7 @@ brew install readline
 brew install sqlite
 brew install unibilium
 brew install unixodbc
+brew install wp-cli
 brew install yarn
 brew install zsh-completions
 brew install zsh-syntax-highlighting

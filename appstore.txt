@@ -1,1 +1,2 @@
+Install macOS Sierra.app
 Xcode.app

@@ -24,6 +24,7 @@ Google Chrome.app
 HSTracker.app
 Hearthstone
 Image Capture.app
+Install macOS Sierra.app
 KeePassX.app
 Launchpad.app
 Mail.app
