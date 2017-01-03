@@ -2,11 +2,51 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade
+brew tap ==> Auto-updated Homebrew!
+brew tap Updated 3 taps (homebrew/core, homebrew/dupes, homebrew/versions).
+brew tap ==> New Formulae
+brew tap homebrew/versions/ruby23
+brew tap pdftoipe
+brew tap servus
+brew tap tomcat@8.0
+brew tap ==> Updated Formulae
+brew tap astyle
+brew tap cfr-decompiler
+brew tap cppcheck
+brew tap czmq
+brew tap dbhash
+brew tap dmd
+brew tap fontforge
+brew tap git-annex
+brew tap homebrew/dupes/m4
+brew tap ipv6calc
+brew tap lean-cli
+brew tap mysql
+brew tap opentsdb
+brew tap osquery
+brew tap qt5
+brew tap questdb
+brew tap re2
+brew tap sqldiff
+brew tap sqlite-analyzer
+brew tap syncthing
+brew tap weechat
+brew tap winetricks
+brew tap youtube-dl
+brew tap ==> Deleted Formulae
+brew tap homebrew/versions/llvm-gcc28
+brew tap homebrew/versions/llvm34
+brew tap homebrew/versions/llvm35
+brew tap homebrew/versions/llvm36
+brew tap homebrew/versions/llvm37
+brew tap homebrew/versions/llvm38
+brew tap 
 brew tap caskroom/cask
 brew tap cbde/stuff
 brew tap homebrew/core
 brew tap homebrew/dupes
 brew tap homebrew/php
+brew tap homebrew/services
 brew tap homebrew/versions
 brew tap neovim/neovim
 brew install autoconf

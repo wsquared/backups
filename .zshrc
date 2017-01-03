@@ -9,6 +9,9 @@ export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# Plugins
+plugins=(aws git node npm bower brew osx extract docker autojump github rvm ruby pip jira bundler)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
