@@ -53,6 +53,7 @@ System Preferences.app
 TeamViewerQS.app
 TextEdit.app
 Time Machine.app
+Track-o-Bot.app
 Utilities
 Visual Studio Code.app
 Xcode.app
