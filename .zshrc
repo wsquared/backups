@@ -56,6 +56,13 @@ complete -o nospace -F _wp_complete wp
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
+# Yarn
+export PATH="$PATH:`yarn global bin`"
+
+# Kubernetes
+export KUBECONFIG=~/.kube/stg
+
+# Idp
 function idp {
   export $(rea-as saml | pecorb | xargs rea-as saml) > /dev/null
   echo "Role: ${AWS_ROLE-(not set)}"

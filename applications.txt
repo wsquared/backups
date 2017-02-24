@@ -18,6 +18,7 @@ Docker.app
 Dropbox.app
 Evernote.app
 FaceTime.app
+Firefox.app
 Font Book.app
 Game Center.app
 Google Chrome.app
@@ -39,6 +40,7 @@ Microsoft Word.app
 Mission Control.app
 MySQLWorkbench.app
 Notes.app
+OpenOffice.app
 Photo Booth.app
 Photos.app
 Preview.app
@@ -48,6 +50,7 @@ Safari.app
 Self Service.app
 Slack.app
 Spectacle.app
+Spotify.app
 Stickies.app
 System Preferences.app
 TeamViewerQS.app
@@ -57,6 +60,7 @@ Track-o-Bot.app
 Utilities
 Visual Studio Code.app
 Xcode.app
+Zeplin.app
 iBooks.app
 iTerm.app
 iTunes.app
