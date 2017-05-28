@@ -3,8 +3,10 @@ App Store.app
 Automator.app
 Battle.net.app
 Box Sync.app
+Brain Workshop.app
 Calculator.app
 Calendar.app
+Charles.app
 Chess.app
 Cisco
 Cisco Jabber.app
@@ -20,12 +22,10 @@ Evernote.app
 FaceTime.app
 Firefox.app
 Font Book.app
-Game Center.app
 Google Chrome.app
 HSTracker.app
 Hearthstone
 Image Capture.app
-Install macOS Sierra.app
 KeePassX.app
 Launchpad.app
 Mail.app
@@ -48,6 +48,7 @@ QuickTime Player.app
 Reminders.app
 Safari.app
 Self Service.app
+Siri.app
 Slack.app
 Spectacle.app
 Spotify.app
@@ -58,6 +59,7 @@ TextEdit.app
 Time Machine.app
 Track-o-Bot.app
 Utilities
+VirtualBox.app
 Visual Studio Code.app
 Xcode.app
 Zeplin.app

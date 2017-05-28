@@ -16,13 +16,6 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
-
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
@@ -57,9 +50,10 @@ export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
 # Yarn
-export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.yarn/bin:$PATH"
+export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
-# Kubernetes
+#Kubernetes
 export KUBECONFIG=~/.kube/stg
 
 # Idp
@@ -68,7 +62,6 @@ function idp {
   echo "Role: ${AWS_ROLE-(not set)}"
 }
 
-# Aliases
-
-alias newswd="cd ~/Dev/news/app/www/wordpress-default/wp-content/themes/REA/library"
+# Go
+export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
