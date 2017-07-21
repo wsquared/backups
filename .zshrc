@@ -65,3 +65,7 @@ function idp {
 # Go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
+# Java
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+

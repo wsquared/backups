@@ -26,6 +26,7 @@ Google Chrome.app
 HSTracker.app
 Hearthstone
 Image Capture.app
+IntelliJ IDEA.app
 KeePassX.app
 Launchpad.app
 Mail.app
