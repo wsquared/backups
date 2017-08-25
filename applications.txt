@@ -22,6 +22,7 @@ Evernote.app
 FaceTime.app
 Firefox.app
 Font Book.app
+Foxtel Go.app
 Google Chrome.app
 HSTracker.app
 Hearthstone
@@ -52,7 +53,6 @@ Self Service.app
 Siri.app
 Slack.app
 Spectacle.app
-Spotify.app
 Stickies.app
 System Preferences.app
 TeamViewerQS.app
@@ -64,6 +64,8 @@ VirtualBox.app
 Visual Studio Code.app
 Xcode.app
 Zeplin.app
+ZoomOutlookPlugin
 iBooks.app
 iTerm.app
 iTunes.app
+zoom.us.app
