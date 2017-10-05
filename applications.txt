@@ -23,6 +23,7 @@ FaceTime.app
 Firefox.app
 Font Book.app
 Foxtel Go.app
+GIMP.app
 Google Chrome.app
 HSTracker.app
 Hearthstone
@@ -49,10 +50,10 @@ Preview.app
 QuickTime Player.app
 Reminders.app
 Safari.app
-Self Service.app
 Siri.app
 Slack.app
 Spectacle.app
+Spotify.app
 Stickies.app
 System Preferences.app
 TeamViewerQS.app
@@ -60,6 +61,7 @@ TextEdit.app
 Time Machine.app
 Track-o-Bot.app
 Utilities
+VMware AirWatch Agent.app
 VirtualBox.app
 Visual Studio Code.app
 Xcode.app
