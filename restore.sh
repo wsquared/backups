@@ -3,7 +3,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew upgrade
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 1 tap (caskroom/cask).
+brew tap Updated 2 taps (caskroom/versions, caskroom/cask).
 brew tap No changes to formulae.
 brew tap 
 brew tap caskroom/cask
@@ -68,6 +68,7 @@ brew install openssl
 brew install p11-kit
 brew install pcre
 brew install perl
+brew install phantomjs
 brew install php71
 brew install pinentry
 brew install pkg-config
@@ -88,16 +89,19 @@ brew install yarn
 brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew cask install alfred
+brew cask install dotnet-sdk
 brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
 brew cask install gimp
 brew cask install google-chrome
+brew cask install graphiql
 brew cask install iterm2
 brew cask install java
 brew cask install keepassx
 brew cask install mysqlworkbench
 brew cask install openoffice
+brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify

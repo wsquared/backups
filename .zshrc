@@ -1,9 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/willwin.wang/.oh-my-zsh
 
-# PHP installed by brew
-export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
-
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -49,12 +46,8 @@ complete -o nospace -F _wp_complete wp
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
-# Yarn
-export PATH="$HOME/.yarn/bin:$PATH"
-export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
 #Kubernetes
-export KUBECONFIG=~/.kube/stg
+export KUBECONFIG=~/.kube/c1.mde.realestate.com.au
 
 # Idp
 function idp {
@@ -66,6 +59,7 @@ function idp {
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 
 # Java
-
 export JAVA_HOME=$(/usr/libexec/java_home)
 
+# Dotnet
+export PATH=/usr/local/share/dotnet/bin:$PATH

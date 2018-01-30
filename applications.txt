@@ -25,8 +25,8 @@ Font Book.app
 Foxtel Go.app
 GIMP.app
 Google Chrome.app
+GraphiQL.app
 HSTracker.app
-Hearthstone
 Image Capture.app
 IntelliJ IDEA.app
 KeePassX.app
@@ -39,6 +39,7 @@ Microsoft Office 2011
 Microsoft OneNote.app
 Microsoft Outlook.app
 Microsoft PowerPoint.app
+Microsoft Remote Desktop.app
 Microsoft Word.app
 Mission Control.app
 MySQLWorkbench.app
@@ -51,6 +52,7 @@ QuickTime Player.app
 Reminders.app
 Safari.app
 Siri.app
+Skype.app
 Slack.app
 Spectacle.app
 Spotify.app
@@ -60,6 +62,7 @@ TeamViewerQS.app
 TextEdit.app
 Time Machine.app
 Track-o-Bot.app
+Unified Remote.app
 Utilities
 VMware AirWatch Agent.app
 VirtualBox.app
