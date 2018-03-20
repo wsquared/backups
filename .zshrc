@@ -16,32 +16,6 @@ source $ZSH/oh-my-zsh.sh
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 
-# Bash completion for the `wp` command
-autoload bashcompinit
-bashcompinit
-
-_wp_complete() {
-  local OLD_IFS="$IFS"
-  local cur=${COMP_WORDS[COMP_CWORD]}
-
-  IFS=$'\n';  # want to preserve spaces at the end
-  local opts="$(wp cli completions --line="$COMP_LINE" --point="$COMP_POINT")"
-
-  if [[ "$opts" =~ \<file\>\s* ]]
-  then
-    COMPREPLY=( $(compgen -f -- $cur) )
-  elif [[ $opts = "" ]]
-  then
-    COMPREPLY=( $(compgen -f -- $cur) )
-  else
-    COMPREPLY=( ${opts[*]} )
-  fi
-
-  IFS="$OLD_IFS"
-  return 0
-}
-complete -o nospace -F _wp_complete wp
-
 # Config for apps
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
@@ -63,3 +37,12 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Dotnet
 export PATH=/usr/local/share/dotnet/bin:$PATH
+
+# NVM
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+# Yarn
+
+export PATH=$PATH:~/.config/yarn/global

@@ -2,10 +2,6 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade
-brew tap ==> Auto-updated Homebrew!
-brew tap Updated 2 taps (caskroom/versions, caskroom/cask).
-brew tap No changes to formulae.
-brew tap 
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap cbde/stuff
@@ -17,6 +13,7 @@ brew tap homebrew/services
 brew tap homebrew/versions
 brew tap neovim/neovim
 brew install adns
+brew install adr-tools
 brew install autoconf
 brew install autojump
 brew install automake
@@ -81,10 +78,12 @@ brew install sbt
 brew install scala
 brew install shush
 brew install sqlite
+brew install the_silver_searcher
 brew install unibilium
 brew install unixodbc
 brew install vim
 brew install wp-cli
+brew install xz
 brew install yarn
 brew install zsh-completions
 brew install zsh-syntax-highlighting
@@ -93,9 +92,9 @@ brew cask install dotnet-sdk
 brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
-brew cask install gimp
 brew cask install google-chrome
 brew cask install graphiql
+brew cask install hyper
 brew cask install iterm2
 brew cask install java
 brew cask install keepassx

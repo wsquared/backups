@@ -23,13 +23,14 @@ FaceTime.app
 Firefox.app
 Font Book.app
 Foxtel Go.app
-GIMP.app
 Google Chrome.app
 GraphiQL.app
 HSTracker.app
+Hyper.app
 Image Capture.app
 IntelliJ IDEA.app
 KeePassX.app
+Kindle.app
 Launchpad.app
 Mail.app
 Maps.app

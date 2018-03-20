@@ -1,2 +1,5 @@
 Xcode.app
 Microsoft Remote Desktop.app
+Kindle.app
+Evernote.app
+Slack.app
