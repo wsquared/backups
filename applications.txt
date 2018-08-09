@@ -59,6 +59,7 @@ Spectacle.app
 Spotify.app
 Stickies.app
 System Preferences.app
+Tableau Desktop 2018.1.app
 TeamViewerQS.app
 TextEdit.app
 Time Machine.app
