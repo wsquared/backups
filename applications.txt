@@ -27,9 +27,9 @@ Foxtel Go.app
 Google Chrome.app
 GraphiQL.app
 HSTracker.app
-Hyper.app
 Image Capture.app
 IntelliJ IDEA.app
+Intelligent Hub.app
 KeePassX.app
 Kindle.app
 Launchpad.app
@@ -68,7 +68,6 @@ Time Machine.app
 Track-o-Bot.app
 Unified Remote.app
 Utilities
-VMware AirWatch Agent.app
 VirtualBox.app
 Visual Studio Code.app
 Xcode.app
@@ -77,4 +76,5 @@ ZoomOutlookPlugin
 iBooks.app
 iTerm.app
 iTunes.app
+macOS Mojave.appdownload
 zoom.us.app

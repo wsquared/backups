@@ -65,6 +65,7 @@ brew install libyaml
 brew install libzip
 brew install mcrypt
 brew install mhash
+brew install mongodb
 brew install mono
 brew install msgpack
 brew install mysql
@@ -85,6 +86,7 @@ brew install pinentry
 brew install pkg-config
 brew install pyenv
 brew install python
+brew install python@2
 brew install rea-as
 brew install rea-slip-utils
 brew install readline
@@ -94,6 +96,7 @@ brew install scala
 brew install shush
 brew install sqlite
 brew install the_silver_searcher
+brew install tig
 brew install tree
 brew install unibilium
 brew install unixodbc
@@ -125,5 +128,6 @@ brew cask install spectacle
 brew cask install spotify
 brew cask install virtualbox
 brew cask install visual-studio-code
+brew cask install zoomus
 brew cleanup
 brew cask cleanup
