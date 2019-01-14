@@ -49,6 +49,7 @@ Notes.app
 OpenOffice.app
 Photo Booth.app
 Photos.app
+Postman.app
 Preview.app
 QuickTime Player.app
 Reminders.app
