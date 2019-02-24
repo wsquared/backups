@@ -1,5 +1,6 @@
 Xcode.app
 Microsoft Remote Desktop.app
 Kindle.app
+Keynote.app
 Evernote.app
 Slack.app

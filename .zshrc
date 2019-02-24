@@ -59,3 +59,6 @@ eval "$(pyenv init -)"
 
 # avn
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+# prompt
+prompt_context () { }
