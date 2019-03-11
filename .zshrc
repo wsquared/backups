@@ -62,3 +62,10 @@ eval "$(pyenv init -)"
 
 # prompt
 prompt_context () { }
+
+# vim
+stty -ixon
+
+# ssh
+export SSSH_DEFAULT_ENDPOINT='hdqqb0c1y6.execute-api.ap-southeast-2.amazonaws.com'
+
