@@ -1,10 +1,12 @@
+POWERLEVEL9K_MODE='nerdfont-complete'
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/willwin.wang/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Plugins
 plugins=(aws git node npm bower brew osx extract docker autojump github rvm ruby pip jira bundler)

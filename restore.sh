@@ -23,23 +23,30 @@ brew install automake
 brew install aws-shell
 brew install awscli
 brew install bfg
+brew install cairo
 brew install cask
 brew install chromedriver
 brew install cmake
 brew install coreutils
 brew install direnv
 brew install emacs
+brew install fontconfig
+brew install fontforge
 brew install freetds
 brew install freetype
+brew install fribidi
 brew install fzf
 brew install gdbm
 brew install gettext
+brew install giflib
 brew install gitversion
 brew install glib
 brew install gmp
 brew install gnupg
 brew install gnutls
 brew install go
+brew install graphite2
+brew install harfbuzz
 brew install haskell-stack
 brew install hub
 brew install icu4c
@@ -55,9 +62,12 @@ brew install libgpg-error
 brew install libksba
 brew install libpng
 brew install libpq
+brew install libspiro
 brew install libtasn1
 brew install libtermkey
+brew install libtiff
 brew install libtool
+brew install libuninameslist
 brew install libunistring
 brew install libusb
 brew install libuv
@@ -81,12 +91,14 @@ brew install oniguruma
 brew install openssh
 brew install openssl
 brew install p11-kit
+brew install pango
 brew install pcre
 brew install perl
 brew install phantomjs
 brew install php71
 brew install php@7.1
 brew install pinentry
+brew install pixman
 brew install pkg-config
 brew install postgresql
 brew install pyenv
@@ -120,6 +132,7 @@ brew cask install dropbox
 brew cask install evernote
 brew cask install firefox
 brew cask install font-hack-nerd-font
+brew cask install font-hack-nerd-font-mono
 brew cask install google-chrome
 brew cask install graphiql
 brew cask install hyper
@@ -132,6 +145,7 @@ brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install spotify
+brew cask install tableplus
 brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install zoomus

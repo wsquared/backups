@@ -63,6 +63,7 @@ Spectacle.app
 Spotify.app
 Stickies.app
 System Preferences.app
+TablePlus.app
 Tableau Desktop 10.5.app
 Tableau Desktop 2018.1.app
 TeamViewerQS.app
