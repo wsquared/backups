@@ -9,7 +9,7 @@ export ZSH=/Users/willwin.wang/.oh-my-zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Plugins
-plugins=(aws git node npm bower brew osx extract docker autojump github rvm ruby pip jira bundler)
+plugins=(aws git ssh-agent node npm yarn brew osx extract docker autojump github pip jira bundler jsontools scala sbt vscode web-search)
 
 source $ZSH/oh-my-zsh.sh
 

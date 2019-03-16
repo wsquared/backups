@@ -1,22 +1,22 @@
 #!/bin/bash
 
 LOCATION="restore.sh"
- 
+
 #Change to script directory
 cd `dirname "$0"`
- 
+
 #Dump Header
 echo '#/bin/bash' > "restore.sh"
- 
+
 #Dump homebrew installion
 echo 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"' >> "restore.sh"
- 
+
 #Dump update brew
 echo 'brew update' >> "restore.sh"
 echo 'brew upgrade' >> "restore.sh"
- 
+
 #Dump taps
-brew tap | while read tap; 
+brew tap | while read tap;
 do
   echo "brew tap $tap" >> "restore.sh"
 done
