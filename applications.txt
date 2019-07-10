@@ -1,10 +1,13 @@
 Alfred 3.app
+Android Studio.app
 App Store.app
 Automator.app
 Battle.net.app
 BlueJeans.app
+Books.app
 Box Sync.app
 Brain Workshop.app
+CCMenu.app
 Calculator.app
 Calendar.app
 Charles.app
@@ -14,7 +17,6 @@ Cisco Jabber.app
 Citrix Receiver.app
 Contacts.app
 Cylance
-DVD Player.app
 Dashboard.app
 Dictionary.app
 Docker.app
@@ -27,9 +29,9 @@ Foxtel Go.app
 Google Chrome.app
 GraphiQL.app
 HSTracker.app
+Home.app
 Image Capture.app
 IntelliJ IDEA.app
-Intelligent Hub.app
 KeePassX.app
 Keynote.app
 Kindle.app
@@ -47,6 +49,7 @@ Microsoft Remote Desktop.app
 Microsoft Word.app
 Mission Control.app
 MySQLWorkbench.app
+News.app
 Notes.app
 OpenOffice.app
 Photo Booth.app
@@ -62,6 +65,7 @@ Slack.app
 Spectacle.app
 Spotify.app
 Stickies.app
+Stocks.app
 System Preferences.app
 TablePlus.app
 Tableau Desktop 10.5.app
@@ -74,10 +78,12 @@ Unified Remote.app
 Utilities
 VirtualBox.app
 Visual Studio Code.app
+VoiceMemos.app
+WhatsApp.app
+Workspace ONE Intelligent Hub.app
 Xcode.app
 Zeplin.app
 ZoomOutlookPlugin
-iBooks.app
 iTerm.app
 iTunes.app
 macOS Mojave.appdownload

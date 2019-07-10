@@ -9,17 +9,15 @@ export ZSH=/Users/willwin.wang/.oh-my-zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Plugins
-plugins=(aws git ssh-agent node npm yarn brew osx extract docker autojump github pip jira bundler jsontools scala sbt vscode web-search)
+plugins=(aws git node npm yarn brew osx extract docker autojump github pip jira bundler jsontools scala sbt vscode web-search)
 
 source $ZSH/oh-my-zsh.sh
+
 
 # User configuration
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-#Kubernetes
-export KUBECONFIG=~/.kube/c1.mde.realestate.com.au
 
 # Idp
 function idp {
@@ -51,13 +49,7 @@ eval "$(jenv init -)"
 # Python
 export PATH=$PATH:/usr/local/opt/python/bin/python3
 eval "$(pyenv init -)"
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/willwin.wang/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/willwin.wang/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/willwin.wang/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/willwin.wang/.nvm/versions/node/v8.10.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+export USER_BASE=/Users/willwin.wang/.local/lib/python3.7/site-packages/
 
 # avn
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
@@ -70,4 +62,8 @@ stty -ixon
 
 # ssh
 export SSSH_DEFAULT_ENDPOINT='hdqqb0c1y6.execute-api.ap-southeast-2.amazonaws.com'
+
+# ammonite
+
+alias amm="amm --no-remote-logging"
 
