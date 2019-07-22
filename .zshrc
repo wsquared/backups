@@ -67,3 +67,9 @@ export SSSH_DEFAULT_ENDPOINT='hdqqb0c1y6.execute-api.ap-southeast-2.amazonaws.co
 
 alias amm="amm --no-remote-logging"
 
+# bash-my-aws and bash-my-rea
+source ~/.bash-my-aws/aliases
+source ~/.bash-my-aws/zsh_completion.sh
+source ~/.bash-my-aws/lib/region-functions
+source ~/.aws-shortcuts/aws-shortcuts.sh
+for f in ~/.bash-my-rea/*-functions; do source $f; done

@@ -11,6 +11,7 @@ brew tap homebrew/core
 brew tap homebrew/php
 brew tap homebrew/services
 brew tap homebrew/versions
+brew tap jmespath/jmespath
 brew tap mongodb/brew
 brew tap neovim/neovim
 brew install adns
@@ -59,6 +60,7 @@ brew install ipcalc
 brew install jansson
 brew install jemalloc
 brew install jenv
+brew install jp
 brew install jpeg
 brew install jq
 brew install ldns
