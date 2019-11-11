@@ -40,10 +40,10 @@ find /Applications -path '*Contents/_MASReceipt/receipt' -maxdepth 4 -print |\se
 ls /Applications > applications.txt
 
 #Dump zshrc
-cp -r ~/.zshrc ./zsh/.
+cp -r ~/.zshrc ./zsh/
 
 #Dump vim
-cp -R ~/.vim_runtime/vimrcs/* ./vimrcs/.
+cp -R ~/.vim_runtime/vimrcs/. ./vimrcs
 
 #Cleanup
 echo 'brew cleanup' >> $LOCATION
