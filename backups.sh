@@ -43,7 +43,7 @@ ls /Applications > applications.txt
 cp -r ~/.zshrc ./zsh
 
 #Dump vim
-cp -r ~/.vim_runtime/vimrcs/* ./vimrcs
+cp -R ~/.vim_runtime/vimrcs/* ./vimrcs
 
 #Cleanup
 echo 'brew cleanup' >> $LOCATION
