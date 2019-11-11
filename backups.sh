@@ -40,7 +40,7 @@ find /Applications -path '*Contents/_MASReceipt/receipt' -maxdepth 4 -print |\se
 ls /Applications > applications.txt
 
 #Dump zshrc
-cp -r ~/.zshrc ./zsh/
+cp -R ~/.zshrc ./zsh
 
 #Dump vim
 cp -R ~/.vim_runtime/vimrcs/. ./vimrcs
