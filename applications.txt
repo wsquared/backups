@@ -36,7 +36,6 @@ KeePassX.app
 Keynote.app
 Kindle.app
 Launchpad.app
-MacVim.app
 Mail.app
 Maps.app
 Messages.app
