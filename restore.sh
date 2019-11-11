@@ -72,6 +72,7 @@ brew install libffi
 brew install libgcrypt
 brew install libgpg-error
 brew install libidn
+brew install libidn2
 brew install libksba
 brew install libmetalink
 brew install libpng
@@ -92,7 +93,9 @@ brew install libyaml
 brew install libzip
 brew install little-cms2
 brew install lua
+brew install lzo
 brew install mcrypt
+brew install mdcat
 brew install mhash
 brew install mongodb
 brew install mono
@@ -109,6 +112,7 @@ brew install openjpeg
 brew install openldap
 brew install openssh
 brew install openssl
+brew install openssl@1.1
 brew install p11-kit
 brew install pango
 brew install pcre
@@ -163,6 +167,7 @@ brew cask install google-chrome
 brew cask install graphiql
 brew cask install hyper
 brew cask install iterm2
+brew cask install java
 brew cask install java8
 brew cask install keepassx
 brew cask install mysqlworkbench

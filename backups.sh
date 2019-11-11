@@ -42,6 +42,9 @@ ls /Applications > applications.txt
 #Dump zshrc
 cp ~/.zshrc .
 
+#Dump vim
+cp -r ~/.vim_runtime ./vim
+
 #Cleanup
 echo 'brew cleanup' >> $LOCATION
 echo 'brew cask cleanup' >> $LOCATION

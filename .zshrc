@@ -73,3 +73,11 @@ source ~/.bash-my-aws/zsh_completion.sh
 source ~/.bash-my-aws/lib/region-functions
 source ~/.aws-shortcuts/aws-shortcuts.sh
 for f in ~/.bash-my-rea/*-functions; do source $f; done
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/sls.zsh
+[ -s "/Users/willwin.wang/.jabba/jabba.sh" ] && source "/Users/willwin.wang/.jabba/jabba.sh"

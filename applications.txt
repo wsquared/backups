@@ -51,6 +51,7 @@ Mission Control.app
 MySQLWorkbench.app
 News.app
 Notes.app
+OneDrive.app
 OpenOffice.app
 Photo Booth.app
 Photos.app

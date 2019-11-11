@@ -1,6 +1,12 @@
 Xcode.app
 Microsoft Remote Desktop.app
+OneDrive.app
+Microsoft Word.app
 Kindle.app
+Microsoft Excel.app
+Microsoft Outlook.app
 Keynote.app
+Microsoft OneNote.app
+Microsoft PowerPoint.app
 Evernote.app
 Slack.app
