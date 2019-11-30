@@ -9,7 +9,7 @@ export ZSH=/Users/willwin.wang/.oh-my-zsh
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Plugins
-plugins=(aws git node npm yarn brew osx extract docker autojump github pip jira bundler jsontools scala sbt vscode web-search)
+plugins=(aws git node npm yarn brew osx extract docker autojump github pip jira bundler jsontools scala sbt vscode web-search autopep8 cask pyenv python)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -69,15 +69,11 @@ alias amm="amm --no-remote-logging"
 
 # bash-my-aws and bash-my-rea
 source ~/.bash-my-aws/aliases
-source ~/.bash-my-aws/zsh_completion.sh
 source ~/.bash-my-aws/lib/region-functions
 source ~/.aws-shortcuts/aws-shortcuts.sh
 for f in ~/.bash-my-rea/*-functions; do source $f; done
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
 
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/willwin.wang/Dev/agent-finder/node_modules/tabtab/.completions/sls.zsh
 [ -s "/Users/willwin.wang/.jabba/jabba.sh" ] && source "/Users/willwin.wang/.jabba/jabba.sh"
+
