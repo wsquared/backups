@@ -17,9 +17,6 @@ au FileType python map <buffer> <leader>1 /class
 au FileType python map <buffer> <leader>2 /def 
 au FileType python map <buffer> <leader>C ?class 
 au FileType python map <buffer> <leader>D ?def 
-au FileType python set cindent
-au FileType python set cinkeys-=0#
-au FileType python set indentkeys-=0#
 
 
 """"""""""""""""""""""""""""""
@@ -28,8 +25,8 @@ au FileType python set indentkeys-=0#
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
-au FileType javascript imap <c-t> $log();<esc>hi
-au FileType javascript imap <c-a> alert();<esc>hi
+au FileType javascript imap <C-t> $log();<esc>hi
+au FileType javascript imap <C-a> alert();<esc>hi
 
 au FileType javascript inoremap <buffer> $r return 
 au FileType javascript inoremap <buffer> $f // --- PH<esc>FP2xi
@@ -74,3 +71,9 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+
+""""""""""""""""""""""""""""""
+" => Markdown
+""""""""""""""""""""""""""""""
+let vim_markdown_folding_disabled = 1

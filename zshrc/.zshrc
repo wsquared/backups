@@ -51,6 +51,10 @@ export PATH=$PATH:/usr/local/opt/python/bin/python3
 eval "$(pyenv init -)"
 export USER_BASE=/Users/willwin.wang/.local/lib/python3.7/site-packages/
 
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
 # avn
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
 
@@ -64,7 +68,6 @@ stty -ixon
 export SSSH_DEFAULT_ENDPOINT='hdqqb0c1y6.execute-api.ap-southeast-2.amazonaws.com'
 
 # ammonite
-
 alias amm="amm --no-remote-logging"
 
 # bash-my-aws and bash-my-rea

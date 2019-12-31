@@ -79,9 +79,11 @@ Utilities
 VirtualBox.app
 Visual Studio Code.app
 VoiceMemos.app
+WalkMe Extension.app
 WhatsApp.app
 Workspace ONE Intelligent Hub.app
 Xcode.app
+YSoft SafeQ Client.app
 Zeplin.app
 ZoomOutlookPlugin
 iTerm.app
