@@ -1,94 +1,30 @@
-Alfred 3.app
-Amazon Chime.app
-Android Studio.app
-App Store.app
-Automator.app
-Battle.net.app
-BlueJeans.app
-Books.app
-Box Sync.app
+Alfred 4.app
+Backup and Sync.app
 Box.app
-Brain Workshop.app
-CCMenu.app
-Calculator.app
-Calendar.app
-Charles.app
-Chess.app
 Cisco
-Cisco Jabber.app
-Citrix Receiver.app
-Contacts.app
 Cylance
-Dashboard.app
-Dictionary.app
 Docker.app
 Dropbox.app
 Evernote.app
-FaceTime.app
 Firefox.app
-Font Book.app
-Foxtel Go.app
 Google Chrome.app
-GraphiQL.app
-HSTracker.app
-Home.app
-Image Capture.app
-IntelliJ IDEA.app
-KeePassX.app
-Keynote.app
-Kindle.app
-Launchpad.app
-Mail.app
-Maps.app
-Messages.app
+Google Docs.app
+Google Drive File Stream.app
+Google Sheets.app
+Google Slides.app
 Microsoft Excel.app
-Microsoft Office 2011
-Microsoft OneNote.app
 Microsoft Outlook.app
 Microsoft PowerPoint.app
-Microsoft Remote Desktop.app
 Microsoft Word.app
-Mission Control.app
-MySQLWorkbench.app
-News.app
-Notes.app
-OneDrive.app
-OpenOffice.app
-Photo Booth.app
-Photos.app
-Postman.app
-Preview.app
-QuickTime Player.app
-Reminders.app
 Safari.app
-Siri.app
-Skype.app
 Slack.app
 Spectacle.app
-Spotify.app
-Stickies.app
-Stocks.app
-System Preferences.app
 TablePlus.app
-Tableau Desktop 10.5.app
-Tableau Desktop 2018.1.app
-TeamViewerQS.app
-TextEdit.app
-Time Machine.app
-Track-o-Bot.app
-Unified Remote.app
 Utilities
-VirtualBox.app
 Visual Studio Code.app
-VoiceMemos.app
 WalkMe Extension.app
 WhatsApp.app
 Workspace ONE Intelligent Hub.app
-Xcode.app
 YSoft SafeQ Client.app
-Zeplin.app
-ZoomOutlookPlugin
 iTerm.app
-iTunes.app
-macOS Mojave.appdownload
 zoom.us.app
