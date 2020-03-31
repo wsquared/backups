@@ -89,6 +89,7 @@ brew install zsh-completions
 brew install zsh-syntax-highlighting
 brew cask install alfred
 brew cask install docker
+brew cask install dotnet-sdk
 brew cask install dropbox
 brew cask install evernote
 brew cask install font-hack-nerd-font

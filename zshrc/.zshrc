@@ -70,7 +70,7 @@ POWERLEVEL9K_MODE="nerdfont-complete"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aws git node npm yarn brew docker autojump github pip vscode web-search autopep8 cask pyenv python gradle)
+plugins=(aws git node npm yarn brew docker autojump github pip vscode web-search autopep8 cask pyenv python gradle-completion)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,5 +107,3 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
-fpath=(/Users/willwin.wang/.zsh/gradle-completion $fpath)
