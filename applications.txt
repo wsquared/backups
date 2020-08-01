@@ -1,30 +1,30 @@
 Alfred 4.app
+Amazon Chime.app
 Backup and Sync.app
-Box.app
-Cisco
-Cylance
+BlueJeans.app
 Docker.app
 Dropbox.app
 Evernote.app
-Firefox.app
+GarageBand.app
 Google Chrome.app
 Google Docs.app
 Google Drive File Stream.app
 Google Sheets.app
 Google Slides.app
-Microsoft Excel.app
-Microsoft Outlook.app
-Microsoft PowerPoint.app
-Microsoft Word.app
+Keynote.app
+Numbers.app
+Pages.app
+Postgres.app
 Safari.app
 Slack.app
 Spectacle.app
+Spotify.app
+Steam.app
 TablePlus.app
 Utilities
 Visual Studio Code.app
-WalkMe Extension.app
+Wacom Tablet.localized
 WhatsApp.app
-Workspace ONE Intelligent Hub.app
-YSoft SafeQ Client.app
+iMovie.app
 iTerm.app
 zoom.us.app
