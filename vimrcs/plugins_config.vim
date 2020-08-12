@@ -46,13 +46,19 @@ nmap <C-n> <Plug>yankstack_substitute_newer_paste
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
 
+" Quickly find and open a file in the current working directory
 let g:ctrlp_map = '<C-f>'
 map <leader>j :CtrlP<cr>
-map <C-b> :CtrlPBuffer<cr>
+
+" Quickly find and open a buffer
+map <leader>b :CtrlPBuffer<cr>
+
+" Quickly find and open a recently opened file
+map <leader>f :CtrlPMRU<CR>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
-let g:ctrlp_show_hidden = 1
+
 
 """"""""""""""""""""""""""""""
 " => ZenCoding
@@ -79,7 +85,7 @@ set grepprg=/bin/grep\ -nH
 " => Nerd Tree
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:NERDTreeWinPos = "right"
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
 map <leader>nn :NERDTreeToggle<cr>
@@ -148,37 +154,23 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Ale (syntax checker and linter)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_linters = {
-\   'javascript': ['prettier', 'eslint'],
+\   'javascript': ['jshint'],
 \   'python': ['flake8'],
+\   'go': ['go', 'golint', 'errcheck']
 \}
-
-let g:ale_fixers = {
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['prettier-eslint'],
-\   'python': ['autopep8'],
-\}
-
-let g:ale_enabled = 0
-
-let g:ale_completion_enabled = 1
-
-let g:ale_sign_column_always = 1
-
-let g:ale_javascript_prettier_use_local_config = 1
 
 nmap <silent> <leader>a <Plug>(ale_next_wrap)
 
-nmap <leader>af :ALEFix<CR>
-nmap <leader>al :ALELint<CR>
-nmap <leader>at :ALEToggle<CR>
+" Disabling highlighting
+let g:ale_set_highlights = 0
+
+" Only run linting when saving the file
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Git gutter (Git diff)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Python mode
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:pymode_python = 'python3'

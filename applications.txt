@@ -2,6 +2,7 @@ Alfred 4.app
 Amazon Chime.app
 Backup and Sync.app
 BlueJeans.app
+DBeaver.app
 Docker.app
 Dropbox.app
 Evernote.app
