@@ -36,3 +36,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Anaconda
+export PATH="/usr/local/anaconda3/bin:$PATH"
+
+# Kubernetes
+source <(kubectl completion zsh)

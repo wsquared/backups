@@ -1,5 +1,6 @@
 Alfred 4.app
 Amazon Chime.app
+Anaconda-Navigator.app
 Backup and Sync.app
 BlueJeans.app
 DBeaver.app
@@ -23,6 +24,7 @@ Spotify.app
 Steam.app
 TablePlus.app
 Utilities
+VirtualBox.app
 Visual Studio Code.app
 Wacom Tablet.localized
 WhatsApp.app
