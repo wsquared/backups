@@ -1,4 +1,7 @@
-" Ale
+" Color
+colorscheme monokai
+
+"Ale
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'python': ['flake8'],

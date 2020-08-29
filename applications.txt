@@ -28,6 +28,7 @@ VirtualBox.app
 Visual Studio Code.app
 Wacom Tablet.localized
 WhatsApp.app
+Xcode.app
 iMovie.app
 iTerm.app
 zoom.us.app
