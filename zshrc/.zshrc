@@ -11,7 +11,6 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/willwin.wang/.oh-my-zsh"
 
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -27,9 +26,7 @@ plugins=(aws git node npm yarn brew docker autojump github pip vscode autopep8 c
 
 source $ZSH/oh-my-zsh.sh
 
-# prompt
-prompt_context () { }
-
+# nvm
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
