@@ -1,6 +1,5 @@
 Alfred 4.app
 Amazon Chime.app
-Anaconda-Navigator.app
 Backup and Sync.app
 BlueJeans.app
 DBeaver.app
@@ -14,7 +13,14 @@ Google Drive File Stream.app
 Google Sheets.app
 Google Slides.app
 Keynote.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Teams.app
+Microsoft Word.app
 Numbers.app
+OneDrive.app
 Pages.app
 Postgres.app
 Safari.app
