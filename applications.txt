@@ -29,6 +29,7 @@ Spectacle.app
 Spotify.app
 Steam.app
 TablePlus.app
+Tunnelblick.app
 Utilities
 VirtualBox.app
 Visual Studio Code.app
