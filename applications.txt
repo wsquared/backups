@@ -23,6 +23,7 @@ Numbers.app
 OneDrive.app
 Pages.app
 Postgres.app
+Postman.app
 Safari.app
 Slack.app
 Spectacle.app
