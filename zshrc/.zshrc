@@ -39,3 +39,7 @@ export PATH="/usr/local/anaconda3/bin:$PATH"
 
 # Kubernetes
 source <(kubectl completion zsh)
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
