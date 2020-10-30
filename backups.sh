@@ -24,13 +24,13 @@ do
 done
 
 #Dump brew
-brew list | while read item;
+brew list --formula | while read item;
 do
   echo "brew install $item" >> "restore.sh"
 done
 
 #Dump cask
-brew cask list | while read item;
+brew list --cask | while read item;
 do
   echo "brew cask install $item" >> "restore.sh"
 done
