@@ -33,6 +33,7 @@ Tunnelblick.app
 Utilities
 VirtualBox.app
 Visual Studio Code.app
+Visual Studio.app
 Wacom Tablet.localized
 WhatsApp.app
 Xcode.app

@@ -3,6 +3,7 @@
 LOCATION="restore.sh"
 
 brew update
+brew upgrade
 
 #Change to script directory
 cd `dirname "$0"`
